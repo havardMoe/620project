@@ -1,0 +1,6 @@
+[submodule "MetasploitGym"]
+	path = MetasploitGym
+	url = https://github.com/phreakAI/MetasploitGym.git
+[submodule "SecGen"]
+	path = SecGen
+	url = https://github.com/cliffe/SecGen.git
