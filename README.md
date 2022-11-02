@@ -9,7 +9,7 @@ dat620 project
 
 # Pulling docker image for msf - grpc
 ```docker pull havardmo/dockerfile-msf```
-
+Run with command ```docker run --rm -i -t -p 9990-9999:9990-9999 -v $HOME/.msf4:/root/.msf4 -v /tmp/msf:/tmp/data --name msf havardmo/dockerfile-msf```
 
 # Pulling submodules into current repo
 (from project folder)
