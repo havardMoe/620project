@@ -6,6 +6,7 @@ dat620 project
 # Installing metasploitable2
 ```https://sourceforge.net/projects/metasploitable/```
 
+Unzip and start with VirtualBox
 
 # Pulling docker image for msf - grpc
 ```docker pull havardmo/dockerfile-msf```
