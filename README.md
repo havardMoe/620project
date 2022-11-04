@@ -11,11 +11,11 @@ Unzip and start with VirtualBox
 
 
 # Pulling docker image for msf - grpc
-```docker pull havardmo/dockerfile-msf```
+```docker pull r0mdau/msf```
 
 Start image with command 
 
-```docker run --rm -i -t -p 9990-9999:9990-9999 -v $HOME/.msf4:/root/.msf4 -v /tmp/msf:/tmp/data --name msf havardmo/dockerfile-msf```
+```docker run --rm -i -t -p 9990-9999:9990-9999 -v $HOME/.msf4:/root/.msf4 -v /tmp/msf:/tmp/data --name msf r0mdau/msf```
 
 After starting the dockerfile, start metasploit by running 
 
