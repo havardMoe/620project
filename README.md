@@ -1,6 +1,4 @@
-# 620projcet
-dat620 project
-
+# Reinforcement Learning for penetration testing
 
 
 # Installing metasploitable2
