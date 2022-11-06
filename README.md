@@ -45,3 +45,17 @@ and spin up the gRPC service by running
 ```git submodule update --init --recursive```
 
 
+# VirtualBox setup
+
+For initial testing i used the machine `metasploitable-2` from the sourceforge link above and `mrRobot` from vulnhub.
+
+I created an internal network for VirtualBox and called it `Malfoy`.
+I then created a dhcp server which assignees IP addresses to machines connected to this network by runnin the context-specific command:
+```dhcpserver add --network=Malfoy --server-ip=10.38.1.1 --lower-ip=10.38.1.110 --upper-ip=10.38.1.120 --netmask=255.255.255.0 --enable```
+
+for mac-hosts, you should run this command in the 
+
+```/Applications/VirtualBox.app/Contents``` folder, and
+
+```C:\Program Files\Oracle\VirtualBox\VBoxManage.exe``` for windows hosts.
+
