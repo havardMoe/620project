@@ -1,28 +1,6 @@
 # Reinforcement Learning for penetration testing
 
-
-# Vulnerable Hosts
-There are different ways of creating vulnerable machines to train a Reinforcement Model on:
-
-## metasploitable 2
-Is a single unsecure machine using linux which has a lot of flaws that can be exploited
-
-### Installing metasploitable2
-```https://sourceforge.net/projects/metasploitable/```
-  Unzip and start with VirtualBox (debian64)
-
-## Vulnhub
-Is a repository of different vulnerable machines one can download and hack
-```https://vulnhub.com/```
-
-## SecGen
-Is a repository which lets you generate virtual machines with random vulnerabilities which can be exploited. Since it lets you generate machines on demand
-I do think this will be the best alternative for this project. However, i was unable to get it to run due to version mismatches and syntax-errors in the generated ruby-files.
-
-It will be nice getting this to work in the future as it lets you generate random vulnerable amchines in a batch manner, as well as on-demand generation.
-
-
-# Pulling docker image for msf - grpc
+## Pulling docker image for msf - grpc
 ```docker pull r0mdau/msf```
 
 Start image with command 
@@ -39,12 +17,12 @@ and spin up the gRPC service by running
 
 
 
-# Pulling submodules into current repo
+## Pulling submodules into current repo
 (from project folder)
 ```git submodule update --init --recursive```
 
 
-# VirtualBox setup
+## VirtualBox setup
 
 For initial testing i used the machine `metasploitable-2` from the sourceforge link above and `mrRobot` from vulnhub.
 
@@ -56,4 +34,25 @@ I then created a dhcp server which assignees IP addresses to machines connected 
 for mac-hosts, you should run this command in the 
 ```/Applications/VirtualBox.app/Contents``` folder, and
 ```C:\Program Files\Oracle\VirtualBox``` for windows hosts.
+
+
+## Vulnerable Hosts
+There are different ways of creating vulnerable machines to train a Reinforcement Model on:
+
+### metasploitable 2
+Is a single unsecure machine using linux which has a lot of flaws that can be exploited
+
+#### Installing metasploitable2
+```https://sourceforge.net/projects/metasploitable/```
+  Unzip and start with VirtualBox (debian64)
+
+### Vulnhub
+Is a repository of different vulnerable machines one can download and hack
+```https://vulnhub.com/```
+
+### SecGen
+Is a repository which lets you generate virtual machines with random vulnerabilities which can be exploited. Since it lets you generate machines on demand
+I do think this will be the best alternative for this project. However, i was unable to get it to run due to version mismatches and syntax-errors in the generated ruby-files.
+
+It will be nice getting this to work in the future as it lets you generate random vulnerable amchines in a batch manner, as well as on-demand generation.
 
