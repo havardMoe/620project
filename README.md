@@ -17,7 +17,7 @@ for mac-hosts, you should run this command in the
 ```/Applications/VirtualBox.app/Contents``` folder, and
 ```C:\Program Files\Oracle\VirtualBox``` for windows hosts.
 
-I would reccomend having the vulnerable machines only inside the internal network, but letting the virtual machine running the docker msfconsole docker image be included in both the internal network **and** in a host-only network, so that you are able to reach the vulnerable machines from the RL-model on the host computer (see figure below). 
+I would reccomend having the vulnerable machines only inside the internal network, but letting the virtual machine running the docker msfconsole docker image be included in both the internal network **and** in a host-only network. This way, you are able to reach the vulnerable machines from the RL-model on the host computer (see figure below) without having them directly connected to your host-network.
 
 
 ## Vulnerable Hosts
