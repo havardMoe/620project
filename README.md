@@ -1,6 +1,6 @@
 # Reinforcement Learning for penetration testing
 
-## Pulling docker image for msf - grpc
+## Using a docker-image containing the metasploit-framework with gRPC communication
 ```docker pull r0mdau/msf```
 
 Start image with command 
