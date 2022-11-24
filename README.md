@@ -20,7 +20,7 @@ Is a repository of different vulnerable machines one can download and hack
 Is a repository which lets you generate virtual machines with random vulnerabilities which can be exploited. Since it lets you generate machines on demand
 I do think this will be the best alternative for this project. However, i was unable to get it to run due to version mismatches and syntax-errors in the generated ruby-files.
 
-The repository is included in this one.
+It will be nice getting this to work in the future as it lets you generate random vulnerable amchines in a batch manner, as well as on-demand generation.
 
 
 # Pulling docker image for msf - grpc
