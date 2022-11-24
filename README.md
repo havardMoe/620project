@@ -24,7 +24,8 @@ There are different ways of creating vulnerable machines to train a Reinforcemen
 
 #### Metasploitable-2
 Is a single unsecure machine using Linux which has a lot of flaws that can be exploited.
-```https://sourceforge.net/projects/metasploitable/```
+
+DOwnload from ```https://sourceforge.net/projects/metasploitable/```
   Unzip and start with VirtualBox (debian64)
 
 #### Vulnhub
