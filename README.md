@@ -21,21 +21,20 @@ for mac-hosts, you should run this command in the
 There are different ways of creating vulnerable machines to train a Reinforcement Model on:
 
 
-### metasploitable 2
+#### metasploitable 2
 Is a single unsecure machine using linux which has a lot of flaws that can be exploited
 
 
-#### Installing metasploitable2
+##### Installing metasploitable2
 ```https://sourceforge.net/projects/metasploitable/```
   Unzip and start with VirtualBox (debian64)
 
 
-### Vulnhub
+#### Vulnhub
 Is a repository of different vulnerable machines one can download and hack
 ```https://vulnhub.com/```
 
-
-### SecGen
+#### SecGen
 Is a repository which lets you generate virtual machines with random vulnerabilities which can be exploited. Since it lets you generate machines on demand
 I do think this will be the best alternative for this project. However, i was unable to get it to run due to version mismatches and syntax-errors in the generated ruby-files.
 
