@@ -5,7 +5,6 @@
 There are different ways of creating vulnerable machines to train a Reinforcement Model on:
 
 ## metasploitable 2
-
 Is a single unsecure machine using linux which has a lot of flaws that can be exploited
 
 ### Installing metasploitable2
