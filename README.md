@@ -50,12 +50,11 @@ and spin up the gRPC service by running
 For initial testing i used the machine `metasploitable-2` from the sourceforge link above and `mrRobot` from vulnhub.
 
 I created an internal network for VirtualBox and called it `Malfoy`.
+This internal network will contain the vulnerable machines used for training and penetration testing
 I then created a dhcp server which assignees IP addresses to machines connected to this network by runnin the context-specific command:
-```dhcpserver add --network=Malfoy --server-ip=10.38.1.1 --lower-ip=10.38.1.110 --upper-ip=10.38.1.120 --netmask=255.255.255.0 --enable```
+```dhcpserver add --network=Malfoy --server-ip=10.38.1.1 --lower-ip=10.38.1.100 --upper-ip=10.38.1.200 --netmask=255.255.255.0 --enable```
 
 for mac-hosts, you should run this command in the 
-
 ```/Applications/VirtualBox.app/Contents``` folder, and
-
-```C:\Program Files\Oracle\VirtualBox\VBoxManage.exe``` for windows hosts.
+```C:\Program Files\Oracle\VirtualBox``` for windows hosts.
 
