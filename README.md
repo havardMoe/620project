@@ -7,6 +7,7 @@
 ## VirtualBox setup
 For initial testing i used the machine `metasploitable-2` from the sourceforge link below and `mrRobot` from vulnhub.
 
+#### Network
 I created an internal network for VirtualBox and called it `Malfoy`.
 This internal network will be used as a seperated network where we do the attacking contain the vulnerable machines used for training and penetration testing.
 I then created a dhcp server which assignees IP addresses to machines connected to this network by runnin the context-specific command:
@@ -16,19 +17,18 @@ for mac-hosts, you should run this command in the
 ```/Applications/VirtualBox.app/Contents``` folder, and
 ```C:\Program Files\Oracle\VirtualBox``` for windows hosts.
 
+I would reccomend having the vulnerable machines only inside the internal network, but letting the virtual machine running the docker msfconsole docker image be included in both the internal network **and** in a host-only network, so that you are able to reach the vulnerable machines from the RL-model on the host computer (see figure below). 
+
 
 ## Vulnerable Hosts
 There are different ways of creating vulnerable machines to train a Reinforcement Model on:
 
-
-#### metasploitable 2
-Is a single unsecure machine using linux which has a lot of flaws that can be exploited
-
+#### Metasploitable-2
+Is a single unsecure machine using linux which has a lot of flaws that can be exploited.
 
 ##### Installing metasploitable2
 ```https://sourceforge.net/projects/metasploitable/```
   Unzip and start with VirtualBox (debian64)
-
 
 #### Vulnhub
 Is a repository of different vulnerable machines one can download and hack
