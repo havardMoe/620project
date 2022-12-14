@@ -54,4 +54,4 @@ and spin up the gRPC service by running
 
 ```load msgrpc Pass=[your_pass] ServerPort=[your_port] ServerHost=0.0.0.0 SSL=true```
 
-I downloaded an [Ubuntu image](https://ubuntu.com/download/desktop) and created a virtual machine that ran this docker image, see networking-details above.
+I downloaded an [Ubuntu image](https://ubuntu.com/download/desktop) and created a virtual machine that ran this docker image, see networking-details above or from the illustrations provided in the report.
